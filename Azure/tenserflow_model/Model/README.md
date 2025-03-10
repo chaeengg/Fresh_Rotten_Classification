@@ -1,10 +1,9 @@
-## 1-1 = model_fruitveggieEndpoint
-## 2-1 = model_fruitfreshnessEndpoint
-## 2-2 = model_veggiefreshnessEndpoint
-## 3-1 = model_guessveggieEndpoint
-## 3-2 = model_guessfruitEndpoint
+### 1-1 = model_fruitveggieEndpoint
+### 2-1 = model_fruitfreshnessEndpoint
+### 2-2 = model_veggiefreshnessEndpoint
+### 3-1 = model_guessveggieEndpoint
+### 3-2 = model_guessfruitEndpoint
 
-### 
 ```
 Zip/
 ├── cvexport.manifest
