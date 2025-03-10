@@ -1,62 +1,38 @@
-# 프로젝트 개요
+## 1-1 = model_fruitveggieEndpoint
+## 2-1 = model_fruitfreshnessEndpoint
+## 2-2 = model_veggiefreshnessEndpoint
+## 3-1 = model_guessveggieEndpoint
+## 3-2 = model_guessfruitEndpoint
 
-이 리포지토리는 두 가지 주요 프로젝트로 구성되어 있습니다:
+### 
+```
+Zip/
+├── cvexport.manifest
+├ labels.txt
+├ LICENSE
+├ metadata_properties
+└── model.pd
+```
 
-1. **Azure Custom Vision을 활용한 과일 및 채소 이미지 분류**
-2. **DenseNet/ResNet 모델을 활용한 이미지 분류 파이프라인**
+ # MIT License
 
----
+    ##Copyright (c) Microsoft Corporation.
 
-## 1. Azure Custom Vision을 활용한 과일 및 채소 이미지 분류
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-이 프로젝트는 Azure Custom Vision API를 사용하여 과일과 채소를 **신선도** 및 **종류**에 따라 자동 분류합니다.
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-### 주요 기능:
-
-- **과일 vs 채소 분류**
-- **신선도 판별**: 신선한, 중간 상태, 썩은
-- **종류 분류**: 과일/채소의 종류 구분
-
-### 기술 스택:
-
-- Azure Custom Vision API
-- Python (PIL, Matplotlib)
-
----
-
-## 2. DenseNet/ResNet 모델을 활용한 이미지 분류 파이프라인
-
-이 프로젝트는 DenseNet 또는 ResNet 모델을 사용하여 이미지 분류 모델을 훈련하고 평가하는 머신 러닝 파이프라인입니다.
-
-### 주요 단계:
-
-1. 데이터셋 로드 및 변환
-2. 훈련, 검증, 테스트 데이터 분할
-3. 모델 훈련 및 평가
-
-### 기술 스택:
-
-- Python
-- DenseNet, ResNet (PyTorch/TensorFlow)
-
----
-
-## 📊 프로젝트 구조
-
-### 1. **Azure Custom Vision을 활용한 과일 및 채소 이미지 분류**
-
-Azure AI CustomVision/
-├── code/
-| ├ AzureCV.ipynb
-| └── README.md
-└── README.md
-
-### 2. **DenseNet/ResNet 모델 훈련 및 평가**
-
-Azure ML/
-├── code/
-| ├ MLDesigner.ipynb
-| └── README.md
-└── README.md
-
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE
 ---
