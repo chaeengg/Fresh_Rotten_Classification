@@ -3,7 +3,7 @@
 
 1. **Azure Custom Vision을 활용한 과일 및 채소 이미지 분류**
 2. **DenseNet/ResNet 모델을 활용한 이미지 분류 파이프라인**
-
+3. **TensorFlow 모델로 배포 후 이미지 분류**
 ---
 
 ## 1. Azure Custom Vision을 활용한 과일 및 채소 이미지 분류
@@ -20,6 +20,7 @@
 
 - Azure Custom Vision API
 - Python (PIL, Matplotlib)
+- TensorFlow (Python -> 3.10.11)
 
 ---
 
@@ -58,4 +59,11 @@ Azure ML/
 | └── README.md
 └── README.md
 ```
----
+### 2. **TensorFlow 모델로 배포 후 이미지 분류**
+```
+TensorFlow Model/
+├── code/
+| ├ TensorFlow.ipynb
+| └── README.md
+└── README.md
+```
