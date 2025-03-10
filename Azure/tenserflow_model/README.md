@@ -1,4 +1,4 @@
-# 신선도 및 상태 분류 - TensorFlow 모델
+# <img src="https://github.com/weg-9000/image/blob/main/logo_mini.PNG" alt="Example Image" width="32" height="32" style="vertical-align: middle;"> 신선도 및 상태 분류 - TensorFlow 모델
 
 이 저장소에는 Azure Custom Vision에서 내보낸 TensorFlow 모델이 포함되어 있습니다. 해당 모델은 과일/채소 분류, 신선도 판별, 품목 분류 작업을 지원합니다.
 
