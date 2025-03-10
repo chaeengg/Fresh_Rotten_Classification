@@ -34,7 +34,7 @@ MIT 라이센스.
     SOFTWARE
 
 ### 2. **DenseNet/ResNet 모델 훈련 및 평가**
-
+```
 TensorFlow Model/
 ├── code/
 | ├ TensorFlow.ipynb
@@ -43,5 +43,5 @@ TensorFlow Model/
 | ├ ZIP [1-1, 2-1, 2-2, 3-1, 3-2]
 | └── README.md
 └── README.md
-
+```
 ---
