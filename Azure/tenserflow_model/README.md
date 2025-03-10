@@ -9,6 +9,9 @@
 3. 예측: `predict_with_custom_model()` 함수로 이미지를 분류합니다.
 4. 결과 시각화: `analyze_image()` 함수로 이미지와 결과를 출력합니다.
 
+## 주의사항
+1. Python 3.10.11 사용
+
 ## 라이센스
 MIT 라이센스.
     MIT License
