@@ -1,4 +1,4 @@
-# 이미지 분류 및 신선도 분석 시스템
+# # <img src="https://github.com/weg-9000/image/blob/main/logo_mini.PNG" alt="Example Image" width="32" height="32" style="vertical-align: middle;"> 이미지 분류 및 신선도 분석 시스템
 
 이 시스템은 Azure Custom Vision을 통해 훈련된 TensorFlow 모델을 사용하여, 이미지 내 과일과 채소를 분류하고, 각 품목의 신선도를 평가합니다. 이 모델은 또한 품목의 종류를 분류하여 사용자가 업로드한 이미지를 바탕으로 신속한 분석 결과를 제공합니다.
 
